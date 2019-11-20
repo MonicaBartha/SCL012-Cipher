@@ -43,8 +43,8 @@ El proceso de diseño empezó con el sketch en Balsamiq, después el prototipo e
 ![Sketch Descifrar](files/balsamiq-3.jpg "Sketch Descifrar")
 
 ### Prototipo de alta fidedlidad
-Se realiza en Figma y nos permite realizar prubas del producto, pruebas de colores, composición y diseño, con el proposito de llegar al diseño final.
-![Proptotipo en Figma](https://www.figma.com/file/8Ps2On3IYSFdKKBMx5YgPw/Secretos-del-hogar?node-id=0%3A1)
+Se realiza en Figma y nos permite realizar prubas del producto, pruebas de colores, composición y diseño, con el proposito de llegar al diseño final.<br>
+<a href="https://www.figma.com/file/8Ps2On3IYSFdKKBMx5YgPw/Secretos-del-hogar?node-id=0%3A1" target="_blank">Prototipo en Figma</a><br>
 
 ### Mockup
 ![Mockup](files/mockup.jpg "Mockup")
