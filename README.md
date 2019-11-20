@@ -57,6 +57,7 @@ Se realiza en Figma y nos permite realizar prubas del producto, pruebas de color
 - En la segunda fase, después de finalisar el diseño hice test con otros 2 usuarios. En los links se pueden ver.<br>
 -> <a href="https://www.loom.com/share/128984760822480cbb6edcd8723c6705" target="_blank">Usuario 1</a><br>
 -> <a href="https://www.loom.com/share/5abe9d58a07c4a1d8109f0813527fb0d" target="_blank">Usuario 2</a><br>
+
 #### Problema de usabilidad
 - Los usuarios señalaron que el boton Descifrar de la página Cifrar hace confondirse, también el boton Cifrar de la página Descifrar
 - Los usuarios ingresaron simbolos dentro del texto para cifrar o descifrar y no resultó
