@@ -2,13 +2,89 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+      <title>Secretos de hogar</title>
+      <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+      <!-- MENU --> 
+      <header>
+       <nav>
+       <div class="row">
+           <img src="secretos-del-hogar-white-icon50x50.png" alt="logo" class="logo">
+               <ul class="main-nav">
+                   <li><a href="#" id="backHome3">Home</a></li>
+               <li><a href="#" id="aboutButton">Nuestro metodo</a></li>
+                   <li><a href="#">Contacto </a></li>
+           </ul>
+           </div>
+       </nav>
+    </header>
+  <div id="root">
+    <!-- HOME --> 
+    <div id="main">
+      <h1>Secretos de hogar</h1>
+      <h2>Quieres dejar un mensaje a tu pareja pero que nadie lo entienda?</h2>
+        <h3>Tenemos una herramienta que te puede ayudar!</h3>
+          <input type="button" id="encrypt" class="botonCifrar" value="Cifra tu mensaje">
+          <input type="button" id="decrypt" class="botonCifrar" value="Descifra tu mensaje">
+        <h3>MENSAJES PREDEFINIDOS</h3>
+          <p><strong>Copia un mensaje y pegalo en la seccion Cifra tu mensaje</strong></p>
+          <p>Deje las llaves de la casa debajo del macetero</p>
+          <p>Compre flores para tu mama</p>
+          <p>Deje las llaves de la casa en la caja de correos</p>
+          <p>Voy a comprar regalos para los ninos</p>
+          <p>Gaste dinero de los ahorros</p>
+  </div>
+  <!-- ENCRYPT PAGE --> 
+    <div id="encryptPage" hidden>
+      <h1>Cifra tu mensaje</h1>
+         <h3>Como funciona?</h3>
+            <p>Para cifrar ingresa tu mensaje y elije un número de desplazamiento</p>
+            <p><strong>Ingresa el mensaje que quieres cifrar:</strong></p>
+                <textarea class="textArea" id="encryptText"></textarea><br>
+            <p>Elije un número de desplazamiento:</p>
+              <input type="number" id="key1" class="offsetKey">
+              <input type="button" id="encryptButton" class="botonCifrar" value="CIFRA TU MENSAJE">
+            <p>Resultado:</p>
+                <textarea class="textArea" id="encryptResult"></textarea>
     </div>
+     <div id="finalButtons1" hidden >
+              <input type="button" id="clearInput1" class="buttonDiv" value="LIMPIAR">
+              <input type="button" id="backHome1" class="buttonDiv" value="HOME">
+    </div>
+    <!-- DECRYPT PAGE --> 
+    <div id="decryptPage" hidden>
+      <h1>Descifra tu mensaje</h1>
+          <h3>Como funciona?</h3>
+            <p>Para descifrar ingresa tu mensaje y el número de desplasamiento</p>
+            <p><strong>Ingresa el mensaje que quieres descifrar:</strong></p>
+                <textarea class="textArea" id="decryptText"></textarea>
+            <p>Elije un número de desplazamiento:</p>
+              <input type="number" id="key2" class="offsetKey">
+              <input type="button" id="decryptButton" class="botonCifrar" value="DESCIFRA TU MENSAJE">
+            <p>Resultado:</p>
+               <textarea class="textArea" id="decryptResult"></textarea>
+    </div>
+    <div id="finalButtons2" hidden>
+              <input type="button" id="clearInput2" class="buttonDiv" value="LIMPIAR">
+              <input type="button" id="backHome2" class="buttonDiv" value="HOME">
+      </div>
+     </div>
+      <!-- NUESTRO METODO PAGE --> 
+    <div id="aboutPage" class="aboutCezar" hidden>
+      <h1>El Cifrado Cezar</h1>
+            <p>En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A), la B sería reemplazada por la E, etc. Este método debe su nombre a Julio César, que lo usaba para comunicarse con sus generales.</p>
+                <img src="cifrado-cezar.png" alt="example-cezar-cipher">
+                    <p>El cifrado César mueve cada letra un determinado número de espacios en el alfabeto. En este ejemplo se usa un desplazamiento de tres espacios, así que una B en el texto original se convierte en una E en el texto codificado.</p>
+    </div>
+        <footer>
+          <p>Siguenos</p>
+            <img src="facebook-icon.png" alt="facebook-logo" class="socialMediaIcons">
+            <img src="instagram-icon.png" alt="instagram-logo" class="socialMediaIcons">
+            <img src="twitter-icon.png" alt="twitter-logo" class="socialMediaIcons">
+          <p>Contactenos: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+          <p>© Copyright 2019 | Todos los derechos reservados | Diseñado por <a href= "https://webartcompany.com/">WebArtCompany</a></p>
+        </footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

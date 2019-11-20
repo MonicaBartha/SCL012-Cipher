@@ -1,0 +1,37 @@
+// CIFRAR: rescatar los datos ingresados, muestra texto cifrado cuando haces click en Cifrar
+let cifrar = document.getElementById('encryptButton');
+cifrar.addEventListener("click",
+function clickEncryptButton() { 
+    let textoCifrar = document.getElementById('encryptText').value; //rescata el texto para codificar
+    let offsetNumber = document.getElementById('key1').value; // rescata el offset
+    let textoCifrado = cipher.encode(textoCifrar, offsetNumber); //rescata el texto cifrado
+    encryptResult.innerHTML = textoCifrado;   // muestra el texto cifrado 
+    for (let i = 0; i < textoCifrar.lenght; i++) {
+        let asciiCode = textoCifrar.charCodeAt(i);
+        // condicion para espacio
+        if (asciiCode === 32) {
+          textoCifrado += ``;
+        }
+        if (asciiCode >= 65 && asciiCode <= 90) {
+          let formula = (asciiCode - 65 + parseInt(offsetNumber)) %  26 + 65;
+          textoCifrado += String.fromCharCode(formula);
+        }
+        return textoCifrado;
+      }
+});
+
+    
+
+// DESCIFRAR
+let descifrar = document.getElementById('decryptButton');
+descifrar.addEventListener("click",
+function clickDecryptButton() { 
+    let descifrar = document.getElementById('decryptText').value; //rescata el texto para codificar
+    let offsetNumber2 = document.getElementById('key2').value; // rescata el offset
+    let textoDescifrado = cipher.encode(descifrar, offsetNumber2); //rescata el texto cifrado
+    decryptResult.innerHTML = textoDescifrado;   // muestra el texto cifrado 
+});
+
+for (let number = 0; number <= 12; number = number + 2) {
+    console.log(number);
+  }

@@ -1,1 +1,105 @@
-/* Acá va tu código */
+body {
+    width: 100%;
+    background-image: url(pattern.png);
+    background-size: cover;
+    text-align: center;
+  }
+  h2, h3 {
+      font-family: Montserrat;
+      color: #3c3c3c;
+  }
+  h1 {
+      color: #de6049;
+      font-family: Montserrat;
+  }
+  p {
+      font-size: 110%;
+      font-family: Raleway;
+  }
+.root {
+    margin-top: 5%;
+}
+/* div main homepage */
+#main {
+    margin-top: 5%;
+}
+/* input numero dezplasamiento*/
+.offsetKey {
+    width: 5%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1%;
+}
+/* styles de los botones CIFRAR, DESCIFRAR*/
+.botonCifrar{
+      text-transform: uppercase;
+      font-family: Raleway;
+      background-color: #a00000; 
+      color: #fff;
+      padding: 0.8%;
+      border: none;
+      display: inline-block;
+      margin: auto;
+      margin-bottom: 0.5%;
+  }
+/* botones HOME Y LIMPIAR */
+.buttonDiv {
+    text-transform: uppercase;
+      font-family: Raleway;
+      background-color: #a00000; 
+      color: #fff;
+      padding: 0.8%;
+      border: none;
+      margin-top: 1%;
+      display: inline-block;
+  }
+/* textarea de los mesajes y resultados */
+  .textArea {
+      width: 25%;
+      height: 100px;
+  }
+/* meniu */
+header {
+    background-color: #a00000;
+    height: 80px;
+}
+.logo {
+    width: auto;
+    float: left;
+    margin-top: 0.7%;
+    padding-left: 1%;
+}
+.main-nav {
+    list-style: none;
+    display: inline-block;  
+    padding: 15px;
+}
+li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 100%;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Raleway;
+    color: #fff;
+    text-align: left;
+}
+/* footer */
+footer {
+    display: block;
+    background-color: #a00000;
+    color: #fff;
+    font-size: 80%;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.socialMediaIcons{
+    margin-left: 2%;
+}
+.aboutCezar {
+    padding: 2% 10% 2% 10%;
+}
