@@ -19,7 +19,8 @@ Despúes de presionar el botón se muestra la página para Cifrar o Descifrar. E
 
 ## Decisiones de diseño
 
-El diseño es de colores alegres: un pattern con hojas de distantas colors, con opacidad 30% para que sea legible el texto que viene arriba.<br>
+El diseño es de colores alegres: un pattern con hojas de distantas colors para el background, con opacidad 30% para que sea legible el texto que viene arriba.<br>
+#### Colores:
 ![Colores](files/colores.jpg "Colores")
 
 ### Tipografía
@@ -44,10 +45,6 @@ El proceso de diseño empezó con el sketch en Balsamiq, después el prototipo e
 ### Prototipo de alta fidedlidad
 Se realiza en Figma y nos permite realizar prubas del producto, pruebas de colores, composición y diseño, con el proposito de llegar al diseño final.
 ![Proptotipo en Figma](https://www.figma.com/file/8Ps2On3IYSFdKKBMx5YgPw/Secretos-del-hogar?node-id=0%3A1)
-
-<video width="320" height="240" controls>
-  <source src="figma.webm" type="video/mp4">
-</video>
 
 ### Mockup
 ![Mockup](files/mockup.jpg "Mockup")
