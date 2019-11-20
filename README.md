@@ -20,8 +20,7 @@ Despúes de presionar el botón se muestra la página para Cifrar o Descifrar. E
 ## Decisiones de diseño
 
 El diseño es de colores alegres: un pattern con hojas de distantas colors, con opacidad 30% para que sea legible el texto que viene arriba.<br>
-<img src="colores.jpg">
-![Colores](./src/colores.jpg "Colores")
+![Colores](files/colores.jpg "Colores")
 
 ### Tipografía
 Montserrat Bold<br>
@@ -36,29 +35,26 @@ El proceso de diseño empezó con el sketch en Balsamiq, después el prototipo e
 ### Sketch
 
 - HOMEPAGE<br>
-![Sketch Home](./src/balsamiq-1.jpg "Sketch Home")
-<img src="balsamiq-1.jpg"><br>
+![Sketch Home](files/balsamiq-1.jpg "Sketch Home")
 - PÁGINA CIFRAR<br>
-![Sketch Cifrar](./src/balsamiq-2.jpg "Sketch Cifrar")
-<img src="balsamiq-2.jpg"><br>
+![Sketch Cifrar](files/balsamiq-2.jpg "Sketch Cifrar")
 - PÁGINA DESCIFRAR<br>
-![Sketch Descifrar](./src/balsamiq-3.jpg "Sketch Descifrar")
-<img src="balsamiq-3.jpg">
+![Sketch Descifrar](files/balsamiq-3.jpg "Sketch Descifrar")
 
 ### Prototipo de alta fidedlidad
 Se realiza en Figma y nos permite realizar prubas del producto, pruebas de colores, composición y diseño, con el proposito de llegar al diseño final.
-![Proptotipo en Figma](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F8Ps2On3IYSFdKKBMx5YgPw%2FSecretos-del-hogar%3Fnode-id%3D0%253A1)
+![Proptotipo en Figma](https://www.figma.com/file/8Ps2On3IYSFdKKBMx5YgPw/Secretos-del-hogar?node-id=0%3A1)
 
 <video width="320" height="240" controls>
   <source src="figma.webm" type="video/mp4">
 </video>
 
 ### Mockup
-<img src="mockup.jpg"><br>
+![Mockup](files/mockup.jpg "Mockup")
 
 ### Testeos de usabilidad
 - En primera fase realicé test de usabilidad con 2 usuarios y la conclusión estuvo que un boton no sirve y trae más confusión. En la imágen se puede ver el diseño inicial.<br>
-<img src="testeo.jpg">
+![Testeo](files/testeo.jpg "Testeo")
 - En la segunda fase, después de finalisar el diseño hice test con otros 2 usuarios. En los links se pueden ver.<br>
 -> <a href="https://www.loom.com/share/128984760822480cbb6edcd8723c6705" target="_blank">Usuario 1</a><br>
 -> <a href="https://www.loom.com/share/5abe9d58a07c4a1d8109f0813527fb0d" target="_blank">Usuario 2</a><br>
