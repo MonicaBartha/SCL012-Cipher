@@ -21,6 +21,7 @@ Despúes de presionar el botón se muestra la página para Cifrar o Descifrar. E
 
 El diseño es de colores alegres: un pattern con hojas de distantas colors, con opacidad 30% para que sea legible el texto que viene arriba.<br>
 <img src="colores.jpg">
+![Colores](./src/colores.jpg "Colores")
 
 ### Tipografía
 Montserrat Bold<br>
@@ -35,14 +36,18 @@ El proceso de diseño empezó con el sketch en Balsamiq, después el prototipo e
 ### Sketch
 
 - HOMEPAGE<br>
+![Sketch Home](./src/balsamiq-1.jpg "Sketch Home")
 <img src="balsamiq-1.jpg"><br>
 - PÁGINA CIFRAR<br>
+![Sketch Cifrar](./src/balsamiq-2.jpg "Sketch Cifrar")
 <img src="balsamiq-2.jpg"><br>
 - PÁGINA DESCIFRAR<br>
+![Sketch Descifrar](./src/balsamiq-3.jpg "Sketch Descifrar")
 <img src="balsamiq-3.jpg">
 
 ### Prototipo de alta fidedlidad
 Se realiza en Figma y nos permite realizar prubas del producto, pruebas de colores, composición y diseño, con el proposito de llegar al diseño final.
+![Proptotipo en Figma](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F8Ps2On3IYSFdKKBMx5YgPw%2FSecretos-del-hogar%3Fnode-id%3D0%253A1)
 
 <video width="320" height="240" controls>
   <source src="figma.webm" type="video/mp4">
